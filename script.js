@@ -12,7 +12,7 @@ if(pergunta == "saiyajin"){
        
        Personalidade: Muitos Saiyajins são conhecidos por sua arrogância e sede de batalha, sentindo-se superiores a outras raças.
        
-       Transformações: Super Saiyajin,Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Super Saiyajin Rose, Super Saiyajin Blue Evolution, Istinto Superior Incompleto, Istinto Superior Completo.
+       Transformações: Super Saiyajin,Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Super Saiyajin Rose, Super Saiyajin Blue Evolution, Instinto Superior Incompleto, Instinto Superior Completo.
        
        Importante!
        
@@ -62,3 +62,5 @@ else if(pergunta == "Shin-jin"){
     
    `)
 }
+
+      
