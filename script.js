@@ -1,34 +1,43 @@
-let pergunta = prompt(`Escolha sua raça: 
-saiyajin
-namekuseijin
-majin
-shin-jin
-anjo
-arcosiano
-androide
-humano`)
+let pergunta = parseInt(prompt(`Escolha sua raça: 
+1-saiyajin
+2-namekuseijin
+3-majin
+4-shin-jin
+5-anjo
+6-arcosiano
+7-androide
+8-humano
+9-dragão
+10-animal
+11-ogro
+12-homem peixe`))
 
-if(pergunta == "saiyajin"){
-   alert(`
+switch (pergunta) {
+  case 1:
+  alert(`
   Origem: Planeta Vegeta, com alta gravidade
-        
+          
   Aparência: Variável, mas geralmente possuem cabelos negros e olhos escuros.
-       
+         
   Habilidades: Super força, velocidade, capacidade de voar e se transformar em Super Saiyajin e outras formas evoluídas.
-       
+         
   Longevidade: Vida útil semelhante aos humanos mas com pico de desempenho até os 80 anos.
-       
+         
   Personalidade: Muitos Saiyajins são conhecidos por sua arrogância e sede de batalha, sentindo-se superiores a outras raças.
-       
+         
   Transformações: Super Saiyajin,Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Super Saiyajin Rose, Super Saiyajin Blue Evolution, Instinto Superior Incompleto, Instinto Superior Completo.
-       
+         
   Importante!
-       
+         
   Híbridos: Saiyajins com sangue humano, como Gohan, Goten, Trunks, e Bra, também podem se transformar em Super Saiyajin, mas alguns fãs especulam sobre seu potencial máximo comparado a Saiyajins de sangue puro.
-       
+         
   `)
+  
+  break
 }
-else if(pergunta == "namekuseijin") {
+
+switch(pergunta) {
+  case 2:
   alert(`
   Força e Constituição: Namekuseijins geralmente começam com força e constituição mais baixas em comparação com outras raças, como Saiyajins
       
@@ -43,8 +52,11 @@ else if(pergunta == "namekuseijin") {
   Planeta: A raça se originou em Namekusei e, em algumas histórias, foram encontrados em outros planetas como Nova Namekusei e a Terra. 
 
   `)
+
+  break
 }
-else if(pergunta == "majin"){
+switch(pergunta){
+  case 3:
   alert(`
   Aparência: Variação de cores de pele (vermelho, azul claro, rosa, roxo, lavanda, cinza, branco pálido), orelhas pontudas e tentáculos no lugar do cabelo.
         
@@ -54,9 +66,14 @@ else if(pergunta == "majin"){
      
   Regeneração: A habilidade de regenerar partes do corpo perdidas é uma das principais características dos Majins, tornando-os difíceis de serem derrotados. 
      
-  Absorção: Majins podem absorver outros seres, ganhando seus poderes e características.`)
+  Absorção: Majins podem absorver outros seres, ganhando seus poderes e características.
+  
+  `)
+
+  break
 }
-else if(pergunta == "shin-jin"){
+switch(pergunta){
+  case 4:
   alert(`
   Origem: Os Shin-jin nascem no planeta Kaishin, cuja localização exata no universo é desconhecida. 
 
@@ -69,8 +86,11 @@ else if(pergunta == "shin-jin"){
   Habilidades Especiais: Além da força física, os Shin-jin podem desenvolver habilidades únicas, como as técnicas de teletransporte e cura dos Kaios.
     
   `)
+
+  break
 }
-else if(pergunta == "anjo"){
+switch(pergunta){
+  case 5:
   alert(`
   Poder e Habilidades
 
@@ -87,9 +107,13 @@ else if(pergunta == "anjo"){
   Características Físicas e Sociais 
 
   Limitações: Anjos não podem usar seus poderes livremente em combate e possuem limitações em suas habilidades de ressuscitação. 
+  
   `)
+
+  break
 }
-else if(pergunta == "arcosiano"){
+switch(pergunta){
+  case 6:
   alert(`
   Estatísticas e Características:
 
@@ -102,9 +126,13 @@ else if(pergunta == "arcosiano"){
   Potencial de Poder: São considerados uma raça com alto potencial de se tornar mais forte. 
 
   Base de Poder: Geralmente começam mais fortes do que outras raças. 
+  
   `)
+
+  break
 }
-else if(pergunta == "androide"){
+switch(pergunta){
+  case 7:
   alert(`
   Características gerais dos androides
 
@@ -119,7 +147,9 @@ else if(pergunta == "androide"){
   Criação e Evolução: O Dr. Gero continuou a desenvolver androides com diferentes propósitos e níveis de poder ao longo da série, culminando em androides cada vez mais poderosos e complexos. 
 
   `)
-}else if(pergunta == "humano"){
+}
+switch(pergunta){
+  case 8:
   alert(`
   Curiosidades em Destaque: Estatísticas dos Humanos:
 
@@ -132,4 +162,102 @@ else if(pergunta == "androide"){
   Durabilidade: Resistência a balas e golpes/rajadas de alienígenas poderosos, até com ki "divinos"
 
   `)
+
+  break
+}
+switch(pergunta){
+  case 9:
+  alert(`
+  Shenlong:
+
+  Criado a partir das Esferas do Dragão da Terra por Kami.
+
+  Inicialmente realizava apenas 1 desejo por invocação. Depois, sob Dende, passou a atender até 3 desejos.
+
+  Tem restrições: não pode reviver alguém que morreu há mais de um ano ou que já foi ressuscitado antes.
+
+  Porunga:
+
+  Dragão das Esferas de Namek, criado pelos Namekuseijins.
+
+  Capaz de conceder até três desejos, geralmente com menos limitações que Shenlong
+
+  Visão geral:
+
+  Cada conjunto de Esferas (Terra, Namek etc.) invoca um dragão específico. Todos foram criados pelos Namekuseijins.
+  
+  `)
+
+  break
+}
+switch(pergunta){
+  case 10:
+  alert(`
+  Definição e variedade:
+
+  A categoria “animal” em Dragon Ball engloba desde espécies que existem ou existiram na Terra — como veados, macacos, pássaros e dinossauros — até criaturas totalmente fictícias ou distorcidas logicamente. Não existe uma classificação uniforme devido à enorme variedade
+  
+  Um dado curioso: estima-se que 17% dos terráqueos sapientes sejam do tipo animal
+
+  Animais antropomórficos que falam:
+
+  Personagens como Oolong (porquinho metamórfico), Puar (criatura azul semelhante a um gato), Korin (gato divino), King Furry (cão rei) e Captain Yellow (tigre militar) são exemplos frequentes de animais falantes e conscientes
+
+  Alguns animais falam mesmo sem serem antropomórficos — como a Tartaruga que fala e o golfinho que dá instruções a Goku e Chi-Chi .
+
+  Dinossauros no mundo Dragon Ball:
+
+  No universo de Dragon Ball, dinossauros ainda vivem na Terra e em vários outros planetas (como Namek e Cretáceos). Vários tipos aparecem, desde Triceratops até espécies exclusivas como Ferocisaurus e Inflatasaurus Rex
+
+  Em Dr. Slump, Arale evita a extinção desses animais ao empurrar um meteoro de volta ao espaço, resultado: os dinossauros continuam existindo no mundo Dragon
+  
+  `)
+
+  break
+}
+switch(pergunta){
+  case 11:
+  alert(`
+  Ogros do Outro Mundo (Oni):
+  
+  São seres humanoides que cuidam e administram o Outro Mundo em Dragon Ball Z.
+
+  A maioria apresenta pele azul ou vermelha, cabelos pretos, um ou dois chifres, e se veste de maneira elegante — geralmente de camisa e gravata
+
+  Não podem mentir: King Yemma (Enma Daioh), seu líder, pune severamente quem o fizer, com ameaças até de arrancar a língua
+
+  Principais figuras dessa raça:
+
+  Ogro Guia (Guide): aparece para orientar as almas no caminho da Serpente (Snake Way), geralmente carregando um megafone
+
+  Sweepers (Varredores): operam máquinas para limpar o caminho das almas. Em encontros com Goku, acabam causando acidentes sem perceber
+
+  Goz e Mez: são os guardiões do Inferno. Goz é o segundo ogro mais forte depois de Yemma, e Mez é o segundo mais rápido. Ambos falam de forma peculiar, adicionando o som “oni” no fim de cada frase
+
+  Enma Daioh / King Yemma: líder supremo dos ogros, julga as almas e decide seu destino — Céu ou Inferno. É imenso, com barba, chifres e vestindo um capacete; é forte o bastante para facilmente dominar Raditz
+
+  Saike (Psych Oni): um ogro adolescente que trabalha numa máquina de purificação espiritual no filme Dragon Ball Z: Fusion Reborn. Ele se transforma em Janemba após um acidente, mas volta à forma original após ser derrotado
+
+  `)
+
+  break
+}
+switch(pergunta){
+  case 12:
+  alert(`
+  Descrição Geral:
+
+  A raça conhecida como Fishman (Homem-Peixe) no universo Dragon Ball refere-se a seres humanoides com características aquáticas e adaptadas a ambientes subaquáticos. São sencientes e compartilham uma aparência híbrida — parte humano, parte peixe.
+
+  Características da Raça:
+
+  Aparência física: Humanos com nadadeiras, traços aquáticos e adaptações fisiológicas ao ambiente marítimo.
+
+  Nível de inteligência: São inteligentes e capazes de falar, vivendo em sociedade.
+
+  Capacidades em combate: Muitos possuem habilidades especiais ligadas à água, como natação superior, técnicas especiais e resistência. Embora detalhes mais expressivos surjam em obras derivadas (como RPGs), no anime essas habilidades costumam aparecer em batalhas como a de Arqua.
+  
+  `)
+
+  break
 }
