@@ -1,4 +1,4 @@
-let pergunta = parseInt(prompt(`Escolha sua raça: 
+let pergunta = parseInt(prompt(`Escolha um número de 1 a 22 para selecionar sua raça: 
 1-saiyajin
 2-namekuseijin
 3-majin
@@ -590,11 +590,11 @@ switch (pergunta) {
 switch (pergunta) {
   case 21:
     alert(`
-    Elas são uma raça sapiente, pequenos humanoides alados com orelhas pontudas.
+  Elas são uma raça sapiente, pequenos humanoides alados com orelhas pontudas.
 
-    Podem variar muito de tamanho: desde muito pequenas até algo próximo ao tamanho de uma criança humana.
+  Podem variar muito de tamanho: desde muito pequenas até algo próximo ao tamanho de uma criança humana.
 
-    Também há “Fadas do Tempo” (Time Fairies), dois tipos conhecidos: Centi e Milli. Elas são menores que um humano médio.
+  Também há “Fadas do Tempo” (Time Fairies), dois tipos conhecidos: Centi e Milli. Elas são menores que um humano médio.
 
   
   `)
@@ -604,31 +604,31 @@ switch (pergunta) {
 switch (pergunta) {
   case 22:
     alert(`
-    Informações Básicas:
+  Informações Básicas:
 
-    Origem: Criados artificialmente pelos Saiyajins
+  Origem: Criados artificialmente pelos Saiyajins
 
-    Altura média: ~1,20 metros
+  Altura média: ~1,20 metros
 
-    Aparência: Humanoides verdes com garras e cabeça bulbosa
+  Aparência: Humanoides verdes com garras e cabeça bulbosa
 
-    Poder de Luta:
+  Poder de Luta:
 
-    Força física: Alta para padrões humanos
+  Força física: Alta para padrões humanos
 
-    Velocidade: Rápidos em combate, mas inferiores a guerreiros Z de elite
+  Velocidade: Rápidos em combate, mas inferiores a guerreiros Z de elite
 
-    Resistência: Moderada (podem ser derrotados com um golpe forte)
+  Resistência: Moderada (podem ser derrotados com um golpe forte)
 
-    Habilidades Especiais:
+  Habilidades Especiais:
 
-    Explosão Suicida: Auto-destruição que causa grande dano
+  Explosão Suicida: Auto-destruição que causa grande dano
 
-    Cuspe Ácido: Ataca com ácido corrosivo pela boca
+  Cuspe Ácido: Ataca com ácido corrosivo pela boca
 
-    Técnicas de Luta: Corpo a corpo básico, eficiente mas não refinado
+  Técnicas de Luta: Corpo a corpo básico, eficiente mas não refinado
 
-   `)
+  `)
 
     break
 }
