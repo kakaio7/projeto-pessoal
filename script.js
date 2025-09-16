@@ -20,8 +20,7 @@ let pergunta = parseInt(prompt(`Escolha sua raça:
 19-beppa-seijin
 20-boter
 21-fada
-22-saibaiman
-23-`))
+22-saibaiman`))
 
 switch (pergunta) {
   case 1:
