@@ -20,7 +20,8 @@ let pergunta = parseInt(prompt(`Escolha sua raça:
 19-beppa-seijin
 20-boter
 21-fada
-22-`))
+22-saibaiman
+23-`))
 
 switch (pergunta) {
   case 1:
@@ -45,13 +46,6 @@ switch (pergunta) {
   Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue,
   Super Saiyajin Rose, Super Saiyajin Blue Evolution,
   Instinto Superior Incompleto, Instinto Superior Completo.
-         
-  Importante!
-         
-  Híbridos: Saiyajins com sangue humano, como Gohan,
-  Goten, Trunks, e Bra, também podem se transformar em
-  Super Saiyajin, mas alguns fãs especulam sobre seu
-  potencial máximo comparado a Saiyajins de sangue puro.
          
   `)
 
@@ -162,12 +156,6 @@ switch (pergunta) {
   Imortalidade: Anjos são imortais, mas podem ser
   eliminados se violarem as leis dos anjos, como lutar
   seriamente contra mortais.  
-
-  Características Físicas e Sociais 
-
-  Limitações: Anjos não podem usar seus poderes livremente
-  em combate e possuem limitações em suas habilidades de
-  ressuscitação. 
   
   `)
 
@@ -220,12 +208,7 @@ switch (pergunta) {
   Fontes de Energia: Alguns androides, como o 19 e o 20,
   precisam absorver energia para se manterem funcionando,
   enquanto outros, como o 17 e o 18, têm fontes de energia
-  ilimitadas.
-
-  Criação e Evolução: O Dr. Gero continuou a desenvolver
-  androides com diferentes propósitos e níveis de poder ao
-  longo da série, culminando em androides cada vez mais
-  poderosos e complexos. 
+  ilimitadas. 
 
   `)
 }
@@ -306,17 +289,6 @@ switch (pergunta) {
   Alguns animais falam mesmo sem serem antropomórficos —
   como a Tartaruga que fala e o golfinho que dá instruções
   a Goku e Chi-Chi .
-
-  Dinossauros no mundo Dragon Ball:
-
-  No universo de Dragon Ball, dinossauros ainda vivem na
-  Terra e em vários outros planetas (como Namek e
-  Cretáceos). Vários tipos aparecem, desde Triceratops até
-  espécies exclusivas como Ferocisaurus e Inflatasaurus Rex
-
-  Em Dr. Slump, Arale evita a extinção desses animais ao
-  empurrar um meteoro de volta ao espaço, resultado: os
-  dinossauros continuam existindo no mundo Dragon
   
   `)
 
@@ -347,21 +319,6 @@ switch (pergunta) {
   Sweepers (Varredores): operam máquinas para limpar o
   caminho das almas. Em encontros com Goku, acabam
   causando acidentes sem perceber
-
-  Goz e Mez: são os guardiões do Inferno. Goz é o segundo
-  ogro mais forte depois de Yemma, e Mez é o segundo mais
-  rápido. Ambos falam de forma peculiar, adicionando o som
-  “oni” no fim de cada frase
-
-  Enma Daioh / King Yemma: líder supremo dos ogros, julga
-  as almas e decide seu destino — Céu ou Inferno. É
-  imenso, com barba, chifres e vestindo um capacete; é
-  forte o bastante para facilmente dominar Raditz
-
-  Saike (Psych Oni): um ogro adolescente que trabalha numa
-  máquina de purificação espiritual no filme Dragon Ball
-  Z: Fusion Reborn. Ele se transforma em Janemba após um
-  acidente, mas volta à forma original após ser derrotado
 
   `)
 
@@ -449,15 +406,6 @@ switch (pergunta) {
   nos ossos do braço que podem se estender e serem usadas
   como armas de perfuração
 
-  Pés Preênsseis (Prehensile Feet): Permite pendurar-se de
-  cabeça para baixo em superfícies, útil para ambientes
-  escuros como cavernas
-
-  Forma de Emissão de Energia (Mouth Energy Wave / Energy
-  Absorption): Capacidade de emitir energia acumulada pela
-  boca em rajadas poderosas — proporcional à energia
-  absorvida previamente
-
   `)
 
     break
@@ -488,11 +436,6 @@ switch (pergunta) {
 
   Possivelmente capaz de voar
 
-  Pode usar Ki Blast e uma técnica chamada Energy Wave —
-  esta última vista apenas em videogames como Dragon Ball
-  Z II — onde Apur manipula uma esfera de Ki roxa nas mãos.
-  Amino Apps
-
   `)
 
     break
@@ -521,12 +464,6 @@ switch (pergunta) {
 
   São sapientes, ou seja, possuem inteligência e cultura,
   com organização civil e guerra política entre clãs
-
-  Habilidades Especiais & Tecnologia:
-
-  Os guardas de Moai podiam disparar raios de laser pela
-  boca e eram habilidosos com espadas, além de montarem
-  vermes gigantes como montaria
 
   `)
 
@@ -559,11 +496,6 @@ switch (pergunta) {
   Freeze) segurando a respiração e telecinese mental —
   destaque para Guldo, membro da Ginyu Force
 
-  Resistência a Danos: Guldo consegue sobreviver à
-  decapitação por tempo limitado, embora precise respirar
-  normalmente — uma habilidade que pode ser específica de
-  mutantes Boulean
-
   `)
 
     break
@@ -594,12 +526,7 @@ switch (pergunta) {
 
   Habilidades em Combate:
 
-  Embora os Beenz não sejam conhecidos por sua força
-  bruta, suas habilidades estratégicas e técnicas
-  especiais, como a clonagem e a fusão, os tornavam
-  adversários imprevisíveis e difíceis de derrotar. No
-  entanto, devido à sua extinção, pouco mais se sabe sobre
-  suas capacidades em combate.
+  Sua força bruta, suas habilidades e técnicas especiais.
 
   `)
 
@@ -629,19 +556,6 @@ switch (pergunta) {
   Dore, um membro da Galactic Pro Wrestling League que
   posteriormente se aliou a Cooler. Dore é descrito como
   tendo uma aparência robusta e imponente.
-
-  Habilidades e Poderes:
-
-  Treinamento em Combate: Dore, por exemplo, era um
-  lutador invicto na Galactic Pro Wrestling League, com um
-  recorde de 300 vitórias sem derrotas. Sua transição para
-  um guerreiro a serviço de Cooler demonstra a
-  adaptabilidade e a força dos Beppa-seijins.
-
-  Técnicas Variadas: Os Beppa-seijins possuem uma gama de
-  técnicas de combate, incluindo habilidades mistas e
-  algumas semelhantes às dos Namekuseijins. Isso sugere
-  uma versatilidade em suas abordagens de luta.
 
   `)
 
@@ -687,9 +601,35 @@ switch (pergunta) {
   `)
 
     break
-}switch(pergunta){
+}
+switch (pergunta) {
   case 22:
     alert(`
-      
-      `)
+    Informações Básicas:
+
+    Origem: Criados artificialmente pelos Saiyajins
+
+    Altura média: ~1,20 metros
+
+    Aparência: Humanoides verdes com garras e cabeça bulbosa
+
+    Poder de Luta:
+
+    Força física: Alta para padrões humanos
+
+    Velocidade: Rápidos em combate, mas inferiores a guerreiros Z de elite
+
+    Resistência: Moderada (podem ser derrotados com um golpe forte)
+
+    Habilidades Especiais:
+
+    Explosão Suicida: Auto-destruição que causa grande dano
+
+    Cuspe Ácido: Ataca com ácido corrosivo pela boca
+
+    Técnicas de Luta: Corpo a corpo básico, eficiente mas não refinado
+
+   `)
+
+    break
 }
